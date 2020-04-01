@@ -5,7 +5,7 @@ const { readFileSync } = require('fs')
 const { join } = require('path')
 
 // Main Script
-function main (username, repository) {
+function main(username, repository) {
   // List all remotes
   const remotes = listRemotes()
   if (remotes.includes('origin')) {
@@ -28,7 +28,7 @@ if (!username || !repository) {
 main(username, repository)
 
 // Helper Functions
-function listRemotes () {
+function listRemotes() {
   const results = spawnSync('git', ['remote'])
   const { status, stdout, stderr } = results
   if (status !== 0) {
@@ -39,7 +39,7 @@ function listRemotes () {
   return stdout.toString().trim().split('\n')
 }
 
-function addRemote (name, url) {
+function addRemote(name, url) {
   const results = spawnSync('git', ['remote', 'add', name, url])
   const { status, stderr } = results
   if (status !== 0) {
@@ -50,7 +50,7 @@ function addRemote (name, url) {
   console.log('GIT:', `Added ${name} remote with ${url}`)
 }
 
-function renameRemote (oldName, newName) {
+function renameRemote(oldName, newName) {
   const results = spawnSync('git', ['remote', 'rename', oldName, newName])
   const { status, stderr } = results
   if (status !== 0) {

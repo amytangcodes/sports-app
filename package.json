@@ -4,10 +4,13 @@
   "description": "HackerYou Fullstack Masterclass Project",
   "main": "index.js",
   "scripts": {
+    "deploy": "npm run build:client && node api/server.js",
+    "build": "npm run build:client && npm run move:client",
     "test": "react-scripts test",
     "start:server": "nodemon api/server.js --ignore src/ --ignore build/ --ignore public/",
     "start:client": "react-scripts start",
     "build:client": "react-scripts build",
+    "move:client": "cp -R build/ public",
     "git": "node scripts/git.js amytangcodes sports-app"
   },
   "repository": {
@@ -22,15 +25,23 @@
   },
   "homepage": "https://github.com/HackerYou/con-ed-full-stack#readme",
   "dependencies": {
+    "@material-ui/core": "^4.7.1",
+    "@material-ui/icons": "^4.5.1",
     "eslint": "^6.6.0",
     "express": "^4.17.1",
     "init-package-json": "^1.10.3",
+    "material-table": "^1.54.1",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "material-ui-table": "^0.1.2",
     "mongoose": "^5.7.10",
     "nodemon": "^1.19.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.2.0"
+    "react-scripts": "^3.3.0",
+    "recharts": "^2.0.0-beta.1",
+    "styled-components": "^4.4.1"
   },
   "browserslist": [
     ">0.2%",

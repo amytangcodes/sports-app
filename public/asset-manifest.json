@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/HackerYou/con-ed-full-stack/static/css/main.795991f2.chunk.css",
+    "main.js": "/HackerYou/con-ed-full-stack/static/js/main.3a5655f4.chunk.js",
+    "main.js.map": "/HackerYou/con-ed-full-stack/static/js/main.3a5655f4.chunk.js.map",
+    "runtime-main.js": "/HackerYou/con-ed-full-stack/static/js/runtime-main.ccc6ac46.js",
+    "runtime-main.js.map": "/HackerYou/con-ed-full-stack/static/js/runtime-main.ccc6ac46.js.map",
+    "static/js/2.d2e1b394.chunk.js": "/HackerYou/con-ed-full-stack/static/js/2.d2e1b394.chunk.js",
+    "static/js/2.d2e1b394.chunk.js.map": "/HackerYou/con-ed-full-stack/static/js/2.d2e1b394.chunk.js.map",
+    "index.html": "/HackerYou/con-ed-full-stack/index.html",
+    "precache-manifest.ee61644ba9a0530b2ce5416d72c882aa.js": "/HackerYou/con-ed-full-stack/precache-manifest.ee61644ba9a0530b2ce5416d72c882aa.js",
+    "service-worker.js": "/HackerYou/con-ed-full-stack/service-worker.js",
+    "static/css/main.795991f2.chunk.css.map": "/HackerYou/con-ed-full-stack/static/css/main.795991f2.chunk.css.map",
+    "static/js/2.d2e1b394.chunk.js.LICENSE": "/HackerYou/con-ed-full-stack/static/js/2.d2e1b394.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccc6ac46.js",
+    "static/js/2.d2e1b394.chunk.js",
+    "static/css/main.795991f2.chunk.css",
+    "static/js/main.3a5655f4.chunk.js"
+  ]
+}
